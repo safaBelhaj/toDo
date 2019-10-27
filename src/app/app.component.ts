@@ -20,7 +20,7 @@ export class AppComponent {
       measurementId: "G-8EQZTY9X53"
     };
     firebase.initializeApp(firebaseConfig);
-    console.log("firebase!!!")
+    var database=firebase.database();
   }
 
 }
